@@ -14,8 +14,7 @@ A lista ligada é uma estrutura de dados que se dispõe em forma linear, onde um
 
 Numa lista ligada, as informações estão organizadas de forma que cada informação tem uma ligação com o próximo elemento da lista ligada. Isso significa que os elementos não estão armazenados sequencialmente na memória e sim na ordem dos endereços que os elementos ocupam na memória
 
-Os elementos estão armazenados de forma lógica na Lista Ligada. A lista ligada pode ser utilizada também para representar pilhas e filas
-
-Observando o algoritmo de Mostrar Lista da estrutura de Lista, assinale a alternativa correta.
+Os elementos estão armazenados de forma lógica na Lista Ligada. A lista ligada pode ser utilizada também para representar pilhas e filas.
+ 
 
 ![Lista Ligada](https://github.com/alexfn93/Estrutura-de-Dados---Lista-Ligada/assets/108309097/e1bd8e6d-18fa-4c5d-9622-2bf4a7f84452)
