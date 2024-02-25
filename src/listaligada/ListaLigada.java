@@ -90,4 +90,38 @@ class ListaLigada {
         }
         ultimo = novoNo;
     }
+
+    public void InserirMeio(No NovoNo, int posicao) {
+        No NoTemp = primeiro;
+        int NroNos, posAux = 1;
+
+        NroNos = ContarNos();
+        if (posicao <= 1) {
+            InserirInicio(NovoNo);
+        } else {
+            while (posAux < (posicao - 1)) {
+                NoTemp = NoTemp.prox;
+                posAux = posAux + 1;
+            }
+            NovoNo.prox = NoTemp.prox;
+            NoTemp.prox = NovoNo;
+        }
+    }
+
+    public No BuscarNo(int elemento) {
+
+        int i = 1;
+        No NoTemp = primeiro;
+
+        while (NoTemp != null) {
+            if (NoTemp.elemento == elemento) {
+                System.out.println("No " + NoTemp.elemento + " posição " + i);
+
+                return NoTemp;
+            }
+            i = i + 1;
+            NoTemp = NoTemp.prox;
+        }
+        return null;
+    }
 }
